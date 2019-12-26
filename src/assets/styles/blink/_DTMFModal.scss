@@ -1,0 +1,12 @@
+
+// Custom default button for DTMF keypad
+.btn-dtmf {
+    &,
+    &:hover,
+    &:focus {
+        color: $gray;
+        text-shadow: none; // Prevent inheritence from `body`
+        background-color: $white;
+        border: 1px solid $gray;
+    }
+}
